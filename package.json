@@ -1,0 +1,18 @@
+{
+  "name": "repo",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.2",
+    "vite": "^2.4.4",
+    "@rollup/plugin-node-resolve": "^13.0.4"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "axios-cache-adapter": "^2.7.3"
+  }
+}
